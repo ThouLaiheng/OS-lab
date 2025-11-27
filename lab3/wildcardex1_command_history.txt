@@ -1,0 +1,403 @@
+    1  su laiheng
+    2  sudo apt upgrade
+    3  sudo su
+    4  su
+    5  sudo apt upgrade
+    6  ls 
+    7  ls
+    8  sudo su
+    9  sudo whoami
+   10  sudo su
+   11  ssh gic-laiheng-
+   12  ssh gic-laiheng-thou@192.168.22.122
+   13  echo ~
+   14  ssh gic-laiheng-thou@192.168.22.122
+   15  ssh gic-thou-laiheng@192.168.22.122
+   16  ssh gic-laiheng-thou@192.168.22.122
+   17  ssh gic-thou-laiheng@192.168.22.122
+   18  pwd
+   19  ls
+   20  mkdir lab2
+   21  ls
+   22  cd lab2
+   23  mkdir ex1
+   24  cd ex1
+   25  mkdir etc
+   26  cd etc
+   27  mkdir network
+   28  pwd
+   29  cd network
+   30  touch interfaces
+   31  cd .
+   32  cd ..
+   33  mkdir systemd
+   34  cd systemd
+   35  touch resolved.conf
+   36  mkdir system
+   37  touch sytem.conf
+   38  mkdir user
+   39  touch user.conf
+   40  cd ..
+   41  mkdir udev
+   42  cd udev
+   43  touch rules.d
+   44  touch udev.conf
+   45  cd ..
+   46  touch ex1_command_history.txt
+   47  mkdir home
+   48  cd home
+   49  mkdir lost+found
+   50  mkdir user
+   51  cd user
+   52  mkdir Documents
+   53  cd ..
+   54  touch result1.txt
+   55  cd ..
+   56  mkdir ex2
+   57  cd ex2
+   58  touch ex2_command_history.txt
+   59  tree lab2
+   60  sudo snap install tree
+   61  tree lab2
+   62  cd~
+   63  cd ~
+   64  tree lab2
+   65  touch Document/TP01/file.txt
+   66  ls
+   67  cd lab2
+   68  cd .. 
+   69  cd ~
+   70  mdkir Desktop/TPOS
+   71  mkdir Desktop/TPOS
+   72  mkdir -p Desktop/TPOS
+   73  cd Desktop
+   74  cd ..
+   75  ls
+   76  tree
+   77  mkdir -p Document/TP01
+   78  cd TP01
+   79  cd TP01/
+   80  cd Document
+   81  cd TP01
+   82  touch file.txt
+   83  cd file.txt
+   84  tree
+   85  cd ..
+   86  tree
+   87  cd ..
+   88  tree
+   89  echo "I am Pisey" > Document/TP01/file.txt
+   90  nano Document/TP01/file.txt
+   91  cd desktop/
+   92  cd Desktop
+   93  cat ../Document/TP01/file.txt
+   94  history >lab2/ex2/ex_command_history.txt
+   95  history >lab2/ex2/ex2_command_history.txt
+   96  cd ~
+   97  history >lab2/ex2/ex2_command_history.txt
+   98  cat lab2/ex2/ex_command_history.txt
+   99  cat lab2/ex2/ex2_command_history.txt
+  100  cd ~
+  101  ssh gic-thou-laiheng@192.168.21.87
+  102  tree
+  103  rm -r snap
+  104  tree
+  105  ls
+  106  tree
+  107  mdkir class_activity1
+  108  mkdir class_activity1
+  109  cd class_activity1
+  110  nano hello.c
+  111  ls
+  112  exit
+  113  ls
+  114  cd class_activity1
+  115  gcc hello.c -o
+  116  sudo apt install gcc
+  117  clear
+  118  sudo apt install gcc
+  119  clear
+  120  sudo apt install gcc
+  121  gcc --version
+  122  sudo apt install gcc
+  123  gcc -version
+  124  sudo apt install gcc
+  125  clear
+  126  sudo apt update
+  127  sudo nano /etc/apt/sources.list
+  128  sudo apt update
+  129  sudo apt --fix-missing update
+  130  sudo apt install gcc -y
+  131  gcc --version
+  132  clear
+  133  tree
+  134  cd class_activity1
+  135  cat hello.c
+  136  ls
+  137  gcc hello.c -o hello
+  138  ls
+  139  ./hello
+  140  exit
+  141  ls
+  142  mdkir lab3
+  143  cd lab3
+  144  mkdir lab3
+  145  cd lab3
+  146  mkdir CopyingFolder
+  147  mkdir Documents
+  148  touch copied.tzt
+  149  rm copied.tzt
+  150  ls
+  151  cd CopyingFolder
+  152  cp copied.txt Documents
+  153  cd .
+  154  cd ..
+  155  cp copied.txt Documents
+  156  touch copied.txt
+  157  cp copied.txt Documents
+  158  cd Documents
+  159  touch {one,two,three,four,five}.txt
+  160  ls
+  161  cp {one,two,three,four,five}.txt CopyingFolder
+  162  cd ..
+  163  cp {one,two,three,four,five}.txt CopyingFolder
+  164  cp one.txt CopyingFolder
+  165  cd Documents
+  166  cp one.txt CopyingFolder
+  167  cd ..
+  168  cd CopyingFolder
+  169  ls
+  170  tree
+  171  cd ..
+  172  cd CopyingFolder
+  173  ls
+  174  cd ..
+  175  cd Documents
+  176  cp one.txt CopyingFolder
+  177  cd ..
+  178  cd CopyingFolder
+  179  ls
+  180  cd ..
+  181  cp one.txt CopyingFolder
+  182  cd Documents
+  183  ls
+  184  tree
+  185  ls
+  186  cd class_activiy1
+  187  cd class_activity1
+  188  ls
+  189  ./hello
+  190  cd ..
+  191  mkdir class_activity2
+  192  ls
+  193  cd class_activity2
+  194  cd ~
+  195  htop
+  196  sudo snap install htop
+  197  htop
+  198  cd class_activity2
+  199  touch HelloTD
+  200  nano HelloTD
+  201  ls
+  202  gcc HelloTD.txt -o HelloTD
+  203  gcc HelloTD.c -o HelloTD.txt
+  204  nano HelloTD
+  205  ls
+  206  gcc HelloTD.c -o HelloTD.txt
+  207  gcc HelloTD.txt -o HelloTD
+  208  nano HelloTD.txt
+  209  cat HelloTD.txt
+  210  nano HelloTD.txt
+  211  cat HelloTD.txt
+  212  nano HelloTD.txt
+  213  cat HelloTD.txt
+  214  tree
+  215  ls
+  216  cd lab3
+  217  ls
+  218  cd Documents
+  219  rm CopyingFolder
+  220  ls
+  221  cp one.txt CopyingFolder
+  222  ls
+  223  tree
+  224  rm CopyingFolder
+  225  ls
+  226  cd ..
+  227  ssh gic-thou-laiheng@192.168..23
+  228  ssh gic-thou-laiheng@192.168.23
+  229  tree
+  230  cd ./ex2/ex2_command_history.txt
+  231  ssh gic-thou-laiheng@192.168.23.33
+  232  ssh gic-lai-heng@192.168.23.33
+  233  ssh gic-thou-laiheng@192.168.23.33
+  234  clear
+  235  ssh gic-thou-laiheng@192.168.23.33
+  236  clear
+  237  ssh gic-thou-laiheng@192.168.23.33
+  238  clear
+  239  ssh gic-thou-laiheng@192.168.23.33
+  240  tree
+  241  mkdir class_activity3
+  242  tree
+  243  cd class_activity3
+  244  ls
+  245  tree
+  246  mdkir MQ-IPC
+  247  mkdir MQ-IPC
+  248  cd MQ-IPC
+  249  touch common.h
+  250  nano common.h
+  251  receiver.c
+  252  touch receiver.c
+  253  nano receiver.c
+  254  gcc -o receiver.c receiver
+  255  tree
+  256  touch receiver.c
+  257  tree
+  258  nano receiver.c
+  259  tree
+  260  gcc -o receiver.c receiver
+  261  gcc receiver.c -o receiver
+  262  tree
+  263  touch receiver.c
+  264  nano receiver.c
+  265  tree
+  266  gcc receiver.c -o receiver
+  267  tree
+  268  touch sender.c
+  269  nano sender
+  270  tree
+  271  gcc sender.c -o sender 
+  272  cd ..
+  273  mkdir SHM-IOC
+  274  tree
+  275  rm -r SHM-IOC
+  276  tree
+  277  mkdir SHM-IPC
+  278  tre
+  279  tree
+  280  cd SHM-IPC
+  281  touch shm-producer.c
+  282  gcc -o shm-producer shm-producer.c
+  283  nano shm-producer.c
+  284  gcc -o shm-producer shm-producer.c
+  285  touch shm-consumer.c
+  286  nano shm-consumer.c
+  287  gcc -o shm-consumer.c shm-consumer
+  288  gcc -o shm-consumer shm-consumer.c
+  289  nano shm-consumer.c
+  290  tree
+  291  touch shm-consumer.c
+  292  nano shm-consumer.c
+  293  tree
+  294  gcc -o shm-consumer shm-consumer.c
+  295  ./shm-producer
+  296  tre
+  297  tree
+  298  ./shm-producer > result-shm-ipc.txt
+  299  tree
+  300  cd ..
+  301  tree
+  302  ./sender
+  303  cd MQ-IPC
+  304  ./sender
+  305  ./receiver
+  306  ./receiver > result-mq-ipc.txt
+  307  cat sender.c
+  308  touch result-mq-ipc.txt
+  309  ./receiver > result-mq-ipc.txt
+  310  tree
+  311  ./receiver
+  312  tree
+  313  ./receiver
+  314  gcc receiver.c -o receiver -lrt
+  315  tree
+  316  ./receiver
+  317  chmod +x receiver
+  318  ./receiver
+  319  ubuntu --version
+  320  ./sender
+  321  ./receiver
+  322  ./sender
+  323  ./receiver > result-mq-ipc.txt
+  324  tree
+  325  cat result-mq-ipc.txt
+  326  cd ..
+  327  tree
+  328  cat result-shm-ipc.txt
+  329  git --version
+  330  cd ~/OS-lab
+  331  cd ~/Documents\New folder\Operating System\OS-lab
+  332  cd ~/Documents
+  333  cd Documents
+  334  cd Documents/
+  335  cd /Document
+  336  cd /Documents
+  337  cd ~C:\Users\User\Documents\New folder\Operating System\OS-lab
+  338  cd /mnt/c/Users/User/Documents/New\ folder/Operating\ System/OS-lab
+  339  cd ..
+  340  tree
+  341  cd OS-Lab
+  342  cd ..
+  343  cd OS-lab
+  344  git clone https://github.com/ThouLaiheng/OS-lab.git
+  345  cd /mnt/c/Users/User/Documents/New\ folder/Operating\ System/OS-lab
+  346  cd repo
+  347  cd OS-lab
+  348  tree
+  349  cd lab3
+  350  cd Documents
+  351  mkdir FrenchFolder
+  352  cd ..
+  353  mkdir MoveFolder
+  354  mv documents*.txt MoveFolder 
+  355  mv Documents/* MoveFolder/
+  356  tree
+  357  cd MoveFolder
+  358  cd FrenchFolder
+  359  tree
+  360  cd ../..
+  361  cd MoveFolder
+  362  rm FrenchFolder
+  363  rm -r FrenchFolder
+  364  cd ..
+  365  cd Desktop
+  366  mkdir FrenchFolder
+  367  cd ..
+  368  mv MoveFolder/* FrenchFolder/
+  369  mv MoveFolder/* Desktop/FrenchFolder/
+  370  tree
+  371  tree ~/lab3/tree_structure_before_remove.txt
+  372  cd ..
+  373  tree
+  374  tree lab3  ~/lab3/tree_structure_before_remove.txt
+  375  tree ~/lab3/tree_structure_before_remove.txt
+  376  cd lab3
+  377  tree > lab3_structure.txt
+  378  tree
+  379  cd lab3_structure.txt
+  380  cat lab3_structure.txt
+  381  cd ..
+  382  rm Desktop/FrenchFolder/document_deux.txt
+  383  rm lab3/Desktop/FrenchFolder/document_deux.txt
+  384  tree
+  385  cd Documents
+  386  cd lab3
+  387  cd Documents
+  388  mkdir EmptyFolder
+  389  cd EmptyFolder
+  390  touch deletefile.txt
+  391  mkdir DeleteFolder
+  392  rm -r DeleteFolder
+  393  rm -r EmptyFolder
+  394  cd ..
+  395  rm -r EmptyFolder
+  396  rm FrenchFolder/*.txt
+  397  cd ..
+  398  rm Desktop/FrenchFolder/*.txt
+  399* 
+  400  rm Desktop/FrenchFolder/*
+  401  tree
+  402  tree > tree_structure_after_remove.txt
+  403  history > wildcardex1_command_history.txt

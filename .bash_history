@@ -255,3 +255,51 @@ mv document_un MoveFolder
 mv document_un.txt MoveFolder
 exi
 exit
+tree
+git --version
+git config --global user.name "Laiheng"
+git config --global user.email
+git config --global user.email "laihengthou@gmail.com
+exit
+;
+git config --global user.email
+git config --global user.email "laihengthou@gmail.com
+git config --global user.email "laihengthou@gmail.com"
+git config --global user.email
+git init
+git remote add origin https://github.com/ThouLaiheng/OS-lab.git
+git remote -v
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+exit;
+git clone https://github.com/ThouLaiheng/OS-lab.git
+tree
+exit
+git clone https://github.com/ThouLaiheng/OS-lab.git
+tree
+git clone https://github.com/ThouLaiheng/OS-lab.git
+clear
+git clone https://github.com/ThouLaiheng/OS-lab.git
+rm -rf OS-lab
+git clone https://github.com/ThouLaiheng/OS-lab.git
+tree
+cd OS-lab
+mkdir class_activity3
+tree
+mv MQ-IPC SHM-IPC class_activity3
+tree
+exit
+tree
+mv OS-lab/* ~/
+tree
+rm -r OS-lab
+tree
+git clone
+git clone https://github.com/ThouLaiheng/OS-lab.git
+cd OS-lab
+git status
+cd ..
+git clone https://github.com/ThouLaiheng/OS-lab.git my_oslab
+tree
