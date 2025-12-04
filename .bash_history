@@ -303,3 +303,152 @@ git status
 cd ..
 git clone https://github.com/ThouLaiheng/OS-lab.git my_oslab
 tree
+my_oslab
+cd my_oslab
+mv lab2 ~/
+mv lab2/* ~/lab2/
+cd ..
+mv lab2/* ~/lab2/
+rm -r lab2
+cd my_oslab
+mv lab2 ~/
+cd ..
+tree
+sort
+rm -r my_oslab
+rm my_oslab
+rm -r my_oslab
+~
+ls ~ | sort
+tree
+ls | sort
+rm -r my_oslab
+tree -d
+tree -t
+rm -r my_oslab
+tree
+rm -r OS-lab
+tree
+rm -r CopyFolder
+rm -r CopyingFolder
+rm -r Desktop
+tree
+cd ~
+mkdir Desktop
+mkdir TPOS
+rm -r TPOS
+cd Desktop
+mkdir TPOS
+cd ..
+mkdir Document
+cd Document
+mkdir TP01
+cd TP01
+touch file.txt
+cd../..
+cd ../..
+cd ~
+mkdir lab1
+cd lab1
+mkdir LabFiles
+cd LabFiles
+touch doc1.txt doc2.txt
+tree
+cd ..
+touch command_history.txt
+cd ..
+tree
+cd lab2
+cd ex1
+cd etc
+cd systemd
+mkdir system
+mksir user
+mkdir user
+tree
+cd ..
+mkdir home
+mkdir lost+found
+mkdir user
+rm -r user
+rm -r lost+found
+cd home
+mkdir lost+found
+mkdir user
+cd user
+mkidr Documents
+mkdir Documents
+cd ..
+mkdir ex2
+cd ex2
+touch ex_command_history.txt
+cd ~
+tree
+mdkir class_acivity2
+mkdir class_acivity2
+tree
+cd ~
+mv tree_structure_after_remove.txt lab3
+mv wildcardex1_command_history.txt lab3
+cd lab3
+tree
+cd ..
+tree
+cd lab3
+mkdir -p Link_lab
+touch Link_lab/original.txt
+ln Link_lab/original.txt
+Link_lab/hardlink.txt
+git init
+git remote add origin https://github.com/ThouLaiheng/OS-lab.git
+cd ~
+git init
+git remote add origin https://github.com/ThouLaiheng/OS-lab.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+git branch -m master main
+git branch
+git push -u origin main --force
+tree
+mkdir lab4
+ls
+cd lab4
+cd ..
+mkdir challenge1
+rm -r challenge1
+cd lab4
+mkdir challenge1
+cd challenge1
+mkdir original_log
+cd original_log
+mkdir access.log
+nano access.log
+mkdir access.log
+rm access.log
+rm -r access.log
+nano access.log
+tree
+cd ..
+mkdir analysis
+cd original_log
+cat access.log
+clear
+cd ..
+tree
+cd analysis
+touch task1_basic_stats.txt
+cd task1_basic_stats.txt
+ls lab4/challenge1/original_log
+cd ~
+ls lab4/challenge1/original_log
+ls lab4/challenge1/original_log | wc -l
+ls original_log/ | wc -l
+ls | wc -l >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+cd lab4
+cd challenge1
+cd analysis
+tree
+cd task1_basic_stats.txt
+cat task1_basic_stats.txt
+cd ~

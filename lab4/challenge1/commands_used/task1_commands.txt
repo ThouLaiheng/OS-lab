@@ -1,0 +1,60 @@
+  429  rm -r access.log
+  430  nano access.log
+  431  tree
+  432  cd ..
+  433  mkdir analysis
+  434  cd original_log
+  435  cat access.log
+  436  clear
+  437  cd ..
+  438  tree
+  439  cd analysis
+  440  touch task1_basic_stats.txt
+  441  cd task1_basic_stats.txt
+  442  ls lab4/challenge1/original_log
+  443  cd ~
+  444  ls lab4/challenge1/original_log
+  445  ls lab4/challenge1/original_log | wc -l
+  446  ls original_log/ | wc -l
+  447  ls | wc -l >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  448  cd lab4
+  449  cd challenge1
+  450  cd analysis
+  451  tree
+  452  cd task1_basic_stats.txt
+  453  cat task1_basic_stats.txt
+  454  cd ~
+  455  ls | wc -l >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  456  wc -l < access.log >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  457  cd lab4/challenges1/analysis
+  458  cd lab4/challenges1/analysis/
+  459  cd lab4
+  460  cd challenge1
+  461  cd analysis
+  462  tree
+  463  cd ..
+  464  cd 
+  465  cd lab4/challenge1/analysis
+  466  cd ..
+  467  tree
+  468  cd ~
+  469  wc -l < original_log/access.log >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  470  wc -l < access.log >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  471  cd ~/lab4/challenge1
+  472  wc -l < original_log/access.log >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  473  head -n 5 access.log >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  474  cd original_log
+  475  head -n 5 access.log >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  476  tail -n 5 access.log >> ~/lab4/challenge1/analysis/task1_basic_stats.txt
+  477  history | tail -n 50 > ~/lab4/challenge1/commands_used/task1_commands.txt
+  478  history | tail -n 50 >> ~/lab4/challenge1/commands_used/task1_commands.txt
+  479  cd ~
+  480  history | tail -n 50 >> ~/lab4/challenge1/commands_used/task1_commands.txt
+  481  cd lab4
+  482  cd challenge1
+  483  history | tail -n 50 >> ~/lab4/challenge1/commands_used/task1_commands.txt
+  484  cd ..
+  485* history | tail -n 50 >> ~/lab4/challenge1/commands_used/task1_commands.
+  486  cd challenge1
+  487  mkdir commands_used
+  488  history | tail -n 60 >> commands_used/task1_commands.txt
